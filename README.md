@@ -70,7 +70,7 @@ systemctl status cloudflared
 Server:		127.0.0.53  
 Address:	127.0.0.53#53  
   
-然后修改netplan或network-manager的DNS服务器为127.0.0.1及"::1"如果有IPv6的DoH服务器设置的话,如果修改有疑问可以参考之前我另外一个repo的介绍    
+然后使用netplan或network-manager修改系统DNS服务器为127.0.0.1及"::1"如果有IPv6的DoH服务器设置的话,如果修改有疑问可以参考之前我另外一个repo的介绍    
   
 修改完成后重启机器  
   
