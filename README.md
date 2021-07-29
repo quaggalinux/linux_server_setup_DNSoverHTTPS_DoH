@@ -14,13 +14,11 @@ https://developers.cloudflare.com/argo-tunnel/downloads
    
 $su   
 #cd /   
-#wget https://bin.equinox.io/c/VdrWdbjqyF/cloudflared-stable-linux-amd64.tgz   
+#wget https://github.com/cloudflare/cloudflared/releases/download/2021.7.4/cloudflared-linux-amd64   
    
-解压并拷贝到运行目录  
+拷贝到运行目录  
    
-#tar xvf cloudflared-stable-linux-amd64.tgz  
-  
-#mv -f cloudflared /usr/bin/cloudflared  
+#mv -f cloudflared-linux-amd64 /usr/bin/cloudflared  
   
 检查运行权限,如果没有就置运行权限  
   
